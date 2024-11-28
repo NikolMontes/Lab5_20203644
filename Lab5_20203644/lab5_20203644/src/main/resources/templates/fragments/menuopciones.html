@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Cabecera para las vistas</title>
+</head>
+<body>
+<!-- NAV -->
+<nav>
+    <ul class="main-nav nav navbar-nav mx-auto" th:fragment="cabecera">
+        <li ><a th:href="@{/profesional}">Profesionales</a></li>
+        <li ><a th:href="@{/citas}">Citas</a></li>
+        <li><a th:href="@{/pacientes}">Pacientes</a></li>
+        <li><a th:href="@{/foro}">Foro</a></li>
+        <li><a th:href="@{/recursos}">Recursos</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
